@@ -1,0 +1,58 @@
+/*HEADER*/
+header #ast-desktop-header .ast-container {
+  max-width: 1440px;
+  max-height: 80px;
+  padding: 0;
+}
+
+.ast-logo-title-inline .ast-site-identity {
+  padding: 0;
+}
+
+.site-logo-img {
+  padding-right: 9px !important;
+}
+.site-header .site-description {
+  display: none;
+  font-family: Baskerville;
+  font-size: 0.8rem;
+  font-weight: 600;
+  line-height: 1.2em;
+}
+
+.site-header-section * {
+  padding: 0px;
+}
+.ast-builder-menu-1 .menu-item .menu-link,
+.ast-builder-menu-1 .menu-item.current-menu-item .menu-link {
+  color: black;
+  font-size: 1rem;
+  line-height: 1.2em;
+}
+.ast-builder-menu-1 .menu-item .menu-link:hover {
+  font-size: 0.81rem;
+  font-weight: 700;
+}
+
+.ast-header-button-1 .ast-builder-button-wrap .ast-custom-button {
+  max-width: 236px;
+  max-height: 80px;
+  font-size: 1rem !important;
+  align-items: center;
+  display: flex;
+}
+
+a:where(:not(.wp-element-button)) {
+  text-decoration: none;
+}
+
+/*FOOTER*/
+.site-below-footer-wrap {
+  width: 100%;
+  max-height: 60px;
+}
+
+#astra-footer-menu .menu-item a {
+  padding: 0px;
+  font-size: 1rem;
+}
