@@ -1,0 +1,172 @@
+/*COMMANDER*/
+/*Titres de formulaire*/
+h3 {
+  color: white;
+  margin-top: 40px;
+  margin-bottom: 9px;
+}
+/*Choix articles*/
+#votrecommande .uacf7-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 30px 0 9px 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.uacf7-col-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 192px;
+  padding-left: 0;
+  padding-right: 0;
+}
+#votrecommande label {
+  font-weight: 800;
+  height: 128px;
+  background-position: center center;
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#fraise {
+  background-image: url(https://localhost/planty/wp-content/uploads/2024/03/jeremy-bezanger-0QgbyZdhX7k-unsplash-1.png);
+}
+#pamplemousse {
+  background-image: url(https://localhost/planty/wp-content/uploads/2024/03/estudio-bloom-tOitjphtIXU-unsplash-1.png);
+}
+#framboise {
+  background-image: url(https://localhost/planty/wp-content/uploads/2024/03/rodion-kutsaev-4k8xEFW4_3Q-unsplash-1.png);
+}
+#citron {
+  background-image: url(https://localhost/planty/wp-content/uploads/2024/03/estudio-bloom-ezqnxsqUZ80-unsplash-1.png);
+}
+.wpcf7 .wpcf7-form-control-wrap {
+  display: flex;
+  justify-content: center;
+}
+#votrecommande input {
+  display: flex;
+  text-align: center;
+  max-width: 39px !important;
+  max-height: 56px;
+  margin-top: 10px;
+  padding: 0;
+  border-radius: 0;
+  font-family: Inter;
+}
+
+.separateur {
+  border-bottom: 1px solid #fff;
+  margin: 30px 0 55px 0;
+}
+
+/*Infos commande*/
+#informations .uacf7-row {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 9 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+.uacf7-col-12 {
+  padding-left: 0;
+  padding-right: 0;
+}
+#col1 {
+  padding-right: 45px;
+  border-right: #fff 1px solid;
+}
+#col2 {
+  padding-left: 45px;
+}
+#col1 label,
+#col2 label {
+  margin-bottom: 30px;
+}
+#col1 input,
+#col2 input {
+  height: 71px;
+  text-align: left;
+  border-radius: 7px;
+  font-family: Inter;
+  margin-top: 13px;
+}
+/*Commander Button*/
+.uacf7-row #submit {
+  display: flex;
+  justify-content: center;
+  margin-top: 44px;
+  margin-bottom: 93px;
+}
+#command-form input[type="submit"] {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 198px;
+  max-height: 55px;
+  padding: 9px 57px 9px 56px;
+  border-radius: 5px;
+  font-family: Syne;
+}
+.wpcf7-spinner {
+  display: none;
+}
+/****** Media queries ***********/
+/* Medium devices (tablets, less/equal than 1024 px) */
+@media screen and (max-width: 1024px) {
+  #votrecommande .uacf7-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 30px 30px 9px 30px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  #informations .uacf7-row {
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  #col1 {
+    padding-right: 0px;
+    border-right: none;
+    max-width: ;
+  }
+  #col2 {
+    padding-left: 0px;
+  }
+}
+
+/****** Media queries ***********/
+/* Medium devices (tablets, less/equal than 768px) */
+@media screen and (max-width: 768px) {
+  #command-form h3 {
+    text-align: center;
+  }
+  #votrecommande .uacf7-row {
+    justify-content: center;
+  }
+  .uacf7-col-3 {
+    margin-bottom: 15px;
+  }
+  #informations .uacf7-row {
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  #col1 {
+    padding-right: 0px;
+    border-right: none;
+    max-width: ;
+  }
+  #col2 {
+    padding-left: 0px;
+  }
+}
