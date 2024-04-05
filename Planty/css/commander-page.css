@@ -1,11 +1,13 @@
 /*COMMANDER*/
+
 /*Titres de formulaire*/
 h3 {
   color: white;
   margin-top: 40px;
   margin-bottom: 9px;
 }
-/*Choix articles*/
+
+/*Choix produits*/
 #votrecommande .uacf7-row {
   display: flex;
   flex-wrap: wrap;
@@ -122,10 +124,13 @@ h3 {
   #votrecommande .uacf7-row {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    margin: 30px 30px 9px 30px;
+    justify-content: space-around;
+    margin: 30px 0 9px 0;
     padding-left: 0;
     padding-right: 0;
+    gap: 10px;
+    width: 60%;
+    margin: auto;
   }
   #informations .uacf7-row {
     flex-direction: column;
@@ -133,10 +138,13 @@ h3 {
     margin-left: 0px;
     margin-right: 0px;
   }
+  .uacf7-row::before,
+  .uacf7-row::after {
+    display: none;
+  }
   #col1 {
     padding-right: 0px;
     border-right: none;
-    max-width: ;
   }
   #col2 {
     padding-left: 0px;
@@ -164,7 +172,6 @@ h3 {
   #col1 {
     padding-right: 0px;
     border-right: none;
-    max-width: ;
   }
   #col2 {
     padding-left: 0px;
