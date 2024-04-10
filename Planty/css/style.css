@@ -55,16 +55,23 @@ p {
   font-size: 1.25rem;
 }
 
-.ast-page-builder-template .site-content .ast-container {
+.ast-page-builder-template .site-content .ast-container,
+.ast-container,
+.elementor-element {
   max-width: 1440px;
   padding: 0px;
+  gap: 0px;
 }
 
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
+
 @media screen and (max-width: 1024px) {
   html {
     font-size: 15px;
+  }
+  form {
+    margin: 0 8px 0 8px;
   }
 }
 
@@ -76,9 +83,6 @@ p {
 }
 /* Medium devices (tablets, less/equal than 544px) */
 @media (max-width: 544px) {
-  html {
-    font-size: 14px;
-  }
   h1,
   .entry-content h1 {
     font-size: 1.9rem;
