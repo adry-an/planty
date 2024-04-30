@@ -1,9 +1,141 @@
-#equipe h2 {
+#nous-rencontrer-header {
+  background: var(--main-bg-color)
+    url(https://localhost/planty/wp-content/uploads/2024/04/Group-2.svg)
+    no-repeat 10% 30%;
+  background-size: 13.2%;
+}
+
+#nous-rencontrer-equipe h2 {
   text-transform: none;
   font-weight: 700;
+  margin-bottom: 30px;
 }
-@media screen and (max-width: 768px) {
-  form {
-    margin: 0 8px 0 8px;
+
+#nous-rencontrer-equipe {
+  background: url(https://localhost/planty/wp-content/uploads/2024/04/Group-4.svg)
+    no-repeat 96% 100%;
+  background-size: 16%;
+}
+
+#nous-rencontrer-equipe h3 {
+  font-size: 1.25rem;
+}
+
+#nous-rencontrer-equipe p {
+  margin-bottom: 0;
+}
+
+/*FORMULAIRE DE CONTACT*/
+
+#contact h2 {
+  color: #000;
+  text-align: center;
+  font-family: Syne;
+  font-size: 1.9rem;
+  font-weight: 700;
+  margin: 66px 0 45px 0;
+  display: flex;
+  justify-content: center;
+}
+
+#contact label {
+  font-size: 1.2rem;
+}
+
+#contact input {
+  box-shadow: 0px 4px 14px 0px rgba(0, 0, 0, 0.04);
+}
+#contact #message {
+  position: relative;
+  z-index: 1;
+}
+
+#contact #message #feuillage-form {
+  position: absolute;
+  max-width: 55%;
+  top: 136px;
+  left: -87px;
+  z-index: -1;
+}
+
+#contact #submit {
+  display: flex;
+  justify-content: center;
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+}
+
+#contact #bouton {
+  font-family: syne;
+  line-height: 37px;
+  font-size: 0.9rem;
+}
+
+#contact .wpcf7-spinner {
+  width: 0;
+  height: 0;
+  margin: 0;
+}
+
+/* Medium devices (tablets, less/equal than 1200px) */
+@media screen and (max-width: 1200px) {
+  #nous-rencontrer-equipe {
+    background: url(https://localhost/planty/wp-content/uploads/2024/04/Group-4.svg)
+      no-repeat 100% 100%;
+    background-size: 14%;
+  }
+}
+
+/* Medium devices (tablets, less/equal than 1024px) */
+@media screen and (max-width: 1024px) {
+  #nous-rencontrer-equipe {
+    background: url(https://localhost/planty/wp-content/uploads/2024/04/Group-4.svg)
+      no-repeat 102% 99%;
+    background-size: 16%;
+  }
+}
+
+/* Medium devices (tablets, less/equal than 768px) */
+@media screen and (max-width: 767px) {
+  #nous-rencontrer-header {
+    background: var(--main-bg-color)
+      url(https://localhost/planty/wp-content/uploads/2024/04/Group-2.svg)
+      no-repeat 0% 5%;
+    background-size: 13.2%;
+  }
+  #nous-rencontrer-equipe {
+    background: url(https://localhost/planty/wp-content/uploads/2024/04/Group-4.svg)
+      no-repeat 95% 100%;
+    background-size: 28%;
+  }
+}
+/* Medium devices (tablets, less/equal than 600px) */
+@media screen and (max-width: 600px) {
+  #nous-rencontrer-header {
+    background: var(--main-bg-color)
+      url(https://localhost/planty/wp-content/uploads/2024/04/Group-2.svg)
+      no-repeat 0% 95%;
+    background-size: 13.2%;
+  }
+}
+/* Medium devices (tablets, less/equal than 610px) */
+@media screen and (max-width: 610px) {
+  #contact #message #feuillage-form {
+    display: none;
+  }
+  #contact .bouton {
+    position: relative;
+    z-index: 0;
+  }
+  #contact .bouton::before {
+    content: "";
+    position: absolute;
+    background: url(https://localhost/planty/wp-content/uploads/2024/04/Group-16.png)
+      no-repeat 25% 15%;
+    background-size: auto;
+    z-index: -1;
+    width: 158%;
+    height: 158%;
+    background-size: 24%;
+    top: 0;
   }
 }
