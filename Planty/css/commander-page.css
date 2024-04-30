@@ -1,7 +1,7 @@
 /*COMMANDER*/
 
 /*Titres de formulaire*/
-h3 {
+#command-form h3 {
   color: white;
   margin-top: 40px;
   margin-bottom: 9px;
@@ -96,6 +96,12 @@ h3 {
   padding-left: 0;
   padding-right: 0;
 }
+#command-form #col1 .uacf7-col-12 h3,
+#command-form #col2 .uacf7-col-12 h3 {
+  margin-bottom: 20px;
+  margin-top: 0px;
+}
+
 #col1 {
   padding-right: 45px;
   border-right: #fff 1px solid;
