@@ -1,0 +1,324 @@
+/*HOME-PAGE*/
+
+/* VISUEL ACCUEIL */
+.transformation-section {
+  position: relative;
+  max-width: 1440px;
+  width: 100%;
+  height: auto;
+  border-radius: 0 0 720px 720px / 0 0 60px 60px;
+  background-color: var(--main-bg-color) !important;
+  z-index: 0;
+  filter: drop-shadow(0px 10px 0px #e3d9d0);
+  text-align: center;
+}
+
+.visuel-accueil h1 {
+  padding-top: 105px;
+}
+
+.visuel-accueil .visuel-accueil-boisson {
+  width: auto;
+}
+
+.visuel-accueil .visuel-accueil-feuillage-1 {
+  position: absolute;
+  width: auto;
+  left: 25.3%;
+  top: 41.5%;
+  z-index: -1;
+}
+.visuel-accueil .visuel-accueil-feuillage-2 {
+  position: absolute;
+  width: auto;
+  left: 49.6%;
+  top: 41.5%;
+  z-index: -1;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+/* PRESENTATION PRODUIT - TEXTE */
+#texte-accueil-titre {
+  margin-top: 70px;
+  margin-bottom: 20px;
+}
+
+#texte-accueil-texte {
+  max-width: 497px;
+  margin-top: 30px;
+  margin: 0 15px 0 15px;
+}
+
+/* PRESENTATION PRODUITS - GALERIE DE GOUTS */
+#presentation-produits,
+.presentation-produits-galerie-gouts {
+  gap: 0;
+  margin: 0;
+}
+#presentation-produits {
+  position: relative;
+  border-radius: 0 0 720px 720px /0 0 20px 20px;
+  max-width: 1440px;
+  width: 100%;
+  height: auto;
+}
+#presentation-produits-titre {
+  margin-top: 58px;
+  margin-bottom: 7px;
+  color: var(--main-color);
+}
+#presentation-produits-texte {
+  margin-bottom: 30px;
+  color: #000;
+}
+#presentation-produits-galerie-ligne-gouts {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  gap: 0;
+  margin-bottom: 40px;
+}
+#presentation-produits-galerie-gout {
+  display: flex;
+  width: 393px !important;
+  height: auto;
+  margin: 0 15px 0 15px;
+}
+#presentation-produits-galerie-gout-texte {
+  color: #fff;
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: normal;
+  text-align: center;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+.presentation-produits-accueil-cta a {
+  display: flex;
+  align-items: center;
+  max-width: 198px;
+  height: 55px;
+  margin-top: 27px;
+  margin-bottom: 50px;
+  line-height: 2.5em !important;
+}
+
+/*ACCUEIL - SECTION TEMOIGNAGES*/
+.section-temoignages h2 {
+  text-align: center;
+  margin-top: 114px;
+  margin-bottom: 20px;
+  color: var(--second-color);
+}
+
+.temoignages-row {
+  max-width: 1440px;
+  margin: 60px 10px 85px 10px !important;
+  gap: 70px;
+}
+.section-temoignages .temoignages-row .temoignage-media {
+  max-width: 343px;
+  height: auto;
+}
+
+.section-temoignages .temoignages-row .wp-block-media-text__media img {
+  max-width: 126px;
+  height: auto;
+  margin: 0;
+}
+
+.wp-block-media-text__content {
+  padding: 0 0 0 15px !important;
+}
+.wp-block-media-text__content h3 {
+  color: var(--second-color);
+  margin-top: 20px;
+  margin-bottom: 11px;
+}
+.wp-block-media-text__content p {
+  color: #000;
+  font-size: 1rem;
+  margin-bottom: 20px;
+  line-height: normal;
+  width: 196px;
+}
+
+#frise-bas-de-page .wp-image-87 {
+  max-width: 100%;
+  height: auto;
+  margin-top: 30px;
+}
+
+/* Medium devices (tablets, less/equal than 1330px) */
+@media screen and (max-width: 1330px) {
+  /* VISUEL ACCUEIL */
+  .visuel-accueil .visuel-accueil-feuillage-1 {
+    left: 22.1%;
+  }
+}
+
+/* Medium devices (tablets, less/equal than 1230px) */
+@media screen and (max-width: 1230px) {
+  /* VISUEL ACCUEIL */
+  .visuel-accueil .visuel-accueil-feuillage-2 {
+    left: 48.3%;
+  }
+}
+
+/* Medium devices (tablets, less/equal than 1200px) */
+@media screen and (max-width: 1200px) {
+  /* VISUEL ACCUEIL */
+  .visuel-accueil .visuel-accueil-feuillage-1 {
+    left: 20.3%;
+  }
+  .visuel-accueil .visuel-accueil-feuillage-2 {
+    left: 49.3%;
+  }
+
+  /*ACCUEIL - SECTION TEMOIGNAGES*/
+  .temoignages-row {
+    gap: 20px;
+  }
+}
+
+/* Medium devices (tablets, less/equal than 1100px) */
+@media screen and (max-width: 1100px) {
+  /* VISUEL ACCUEIL */
+  .visuel-accueil .visuel-accueil-feuillage-1 {
+    left: 17.3%;
+  }
+}
+
+/* Medium devices (tablets, less/equal than 1024px) */
+@media screen and (max-width: 1024px) {
+  /* VISUEL ACCUEIL */
+  .visuel-accueil .visuel-accueil-feuillage-1 {
+    left: 15.3%;
+  }
+}
+
+/* Medium devices (tablets, less/equal than 950px) */
+@media screen and (max-width: 950px) {
+  /* VISUEL ACCUEIL */
+  .visuel-accueil .visuel-accueil-feuillage-1 {
+    left: 12.3%;
+    top: 39%;
+  }
+  .visuel-accueil .visuel-accueil-feuillage-2 {
+    top: 39%;
+  }
+}
+
+/* Medium devices (tablets, less/equal than 900px) */
+@media screen and (max-width: 900px) {
+  /* VISUEL ACCUEIL */
+  .visuel-accueil .visuel-accueil-feuillage-1 {
+    left: 11.3%;
+  }
+}
+
+/* Medium devices (tablets, less/equal than 845px) */
+@media screen and (max-width: 845px) {
+  /* VISUEL ACCUEIL */
+  .visuel-accueil .visuel-accueil-feuillage-1 {
+    left: 7.7%;
+  }
+  /* PRESENTATION PRODUITS - GALERIE DE GOUTS */
+  #presentation-produits-galerie-ligne-gouts {
+    gap: 15px;
+    margin-bottom: 15px;
+    flex-wrap: wrap;
+  }
+}
+
+/* Medium devices (tablets, less/equal than 768px) */
+@media screen and (max-width: 768px) {
+  /* VISUEL ACCUEIL */
+  .visuel-accueil .visuel-accueil-feuillage-1 {
+    left: 5%;
+    top: 38%;
+  }
+  .visuel-accueil .visuel-accueil-feuillage-2 {
+    top: 38%;
+  }
+
+  /*ACCUEIL - SECTION TEMOIGNAGES*/
+  .temoignages-row {
+    gap: 20px;
+  }
+}
+
+/* Medium devices (tablets, less/equal than 724px) */
+@media screen and (max-width: 724px) {
+  /* VISUEL ACCUEIL */
+  .visuel-accueil .visuel-accueil-feuillage-1 {
+    left: 3%;
+    width: 44%;
+    top: 44%;
+  }
+  .visuel-accueil .visuel-accueil-feuillage-2 {
+    left: 52.3%;
+    width: 44%;
+    top: 44%;
+  }
+}
+
+/* Medium devices (tablets, less/equal than 600px) */
+@media screen and (max-width: 600px) {
+  /* VISUEL ACCUEIL */
+  .visuel-accueil .visuel-accueil-feuillage-1 {
+    left: 2%;
+    width: 41%;
+    top: 53%;
+  }
+  .visuel-accueil .visuel-accueil-feuillage-2 {
+    left: 56.3%;
+    width: 41%;
+    top: 53%;
+  }
+  /* PRESENTATION PRODUITS - GALERIE DE GOUTS */
+  #presentation-produits {
+    flex-wrap: nowrap;
+    margin: 0;
+  }
+  #presentation-produits-galerie-gout-texte {
+    font-size: 2.5rem;
+  }
+  /*ACCUEIL - SECTION TEMOIGNAGES*/
+  .temoignages-row .wp-block-media-text {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+}
+
+/* Medium devices (tablets, less/equal than 528px) */
+@media screen and (max-width: 528px) {
+  /* VISUEL ACCUEIL */
+  .visuel-accueil .visuel-accueil-feuillage-1,
+  .visuel-accueil .visuel-accueil-feuillage-2 {
+    top: 60%;
+  }
+}
+
+/* Medium devices (tablets, less/equal than 453px) */
+@media screen and (max-width: 453px) {
+  /* VISUEL ACCUEIL */
+  .visuel-accueil .visuel-accueil-feuillage-1 {
+    left: 3%;
+    width: 37%;
+    top: 65%;
+  }
+  .visuel-accueil .visuel-accueil-feuillage-2 {
+    left: 59.3%;
+    width: 37%;
+    top: 65%;
+  }
+  .visuel-accueil .visuel-accueil-boisson {
+    width: 80%;
+  }
+
+  /* PRESENTATION PRODUIT - TEXTE */
+  #texte-accueil-texte {
+    margin-bottom: 50px;
+  }
+}
